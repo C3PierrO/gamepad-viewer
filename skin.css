@@ -28,7 +28,7 @@
 }
 .custom .trigger{/* These are the actual triggers themselves */
     width:102px;
-    height:96px;b
+    height:96px;bb
     background: url(controller-assets/pressed_buttons.png);
     opacity: 0;
 }
@@ -49,18 +49,18 @@ above to achieve the desired position. */
 /* The bumpers follow the same methodology as the triggers in terms of
 placement */
 .custom .bumper{
-    width: 80px;
+    width: 100px;
     height: 22px;
     background: url(controller-assets/pressed_buttons.png);
     background-repeat: no-repeat;
-    background-position: -83px -102px;
+    background-position: -120px 0px;
     opacity: 0;
 }
 .custom .bumpers{
     position: absolute;
-    width: 549px;
+    width: 444px;
     height: 22px;
-    left: 118px;
+    left: 118px;b
     top: 104px;
 }
 .custom .bumper.pressed{ /* The '.pressed' class is used for most buttons to signify they've been pressed */
