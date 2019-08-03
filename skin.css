@@ -10,7 +10,7 @@
     height: 393px;
     width: 444px;
     margin-left: -196px; /* This is half of the skin's width to help center it on the screen */ 
-    margin-top: -222px; /* Normally half the skin's height, but may be a little more or less 
+    margin-top: -222bpx; /* Normally half the skin's height, but may be a little more or less 
     to account for the bar on the top of the page */
 }
 .custom.disconnected { /* This class shows an image when the controller is disconnected */
@@ -28,7 +28,7 @@
 }
 .custom .trigger{/* These are the actual triggers themselves */
     width:77px;
-    height:96px;
+    height:96px;b
     background: url(controller-assets/pressed_buttons.png);
     opacity: 0;
 }
