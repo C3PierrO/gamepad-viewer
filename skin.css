@@ -1,6 +1,6 @@
 /*BEGIN PS4 Controller Styling*/
 .controller.custom {
-    background: url(controller-assets/base.svgz);
+    background: url(controller-assets/base.png);
     height: 598px;
     width: 806px;
     /*    margin-left: -403px;
@@ -8,7 +8,7 @@
 }
 
 .custom.disconnected {
-    background: url(controller-assets/disconnected.svgz);
+    background: url(controller-assets/disconnected.png);
 }
 
 .custom.disconnected div {
@@ -25,7 +25,7 @@
 .custom .trigger {
     width: 99px;
     height: 100%;
-    background: url(controller-assets/triggers.svgz);
+    background: url(controller-assets/triggers.png);
     opacity: 0;
 }
 
@@ -41,7 +41,7 @@
 .custom .bumper {
     width: 99px;
     height: 23px;
-    background: url(controller-assets/bumper.svgz) no-repeat;
+    background: url(controller-assets/bumper.png) no-repeat;
     opacity: 0;
 }
 
@@ -77,7 +77,7 @@
 }
 
 .custom .touchpad.pressed {
-    background: url(controller-assets/touchpad.svgz) no-repeat center;
+    background: url(controller-assets/touchpad.png) no-repeat center;
 }
 
 .custom .meta {
@@ -89,13 +89,13 @@
 }
 
 .custom .meta.pressed {
-    background: url(controller-assets/meta.svgz) no-repeat center;
+    background: url(controller-assets/meta.png) no-repeat center;
 }
 
 /*Not needed, but I like keeping them here for posterity*/
 /*.custom .quadrant{
 position: absolute;
-background: url(ps4-assets/player-n.svgz);
+background: url(ps4-assets/player-n.png);
 height: 17px;
 width: 111px;
 top: 140px;
@@ -122,7 +122,7 @@ background-position: 0 -70px;
 }
 
 .custom .back, .custom .start {
-    background: url(controller-assets/start.svgz);
+    background: url(controller-assets/start.png);
     width: 28px;
     height: 46px;
     opacity: 0;
@@ -157,7 +157,7 @@ background-position: 0 -70px;
     position: absolute;
     width: 55px;
     height: 55px;
-    background: url(controller-assets/face.svgz);
+    background: url(controller-assets/face.png);
 }
 
 .custom .button.pressed {
@@ -197,7 +197,7 @@ background-position: 0 -70px;
 
 .custom .stick {
     position: absolute;
-    background: url(controller-assets/sticks.svgz);
+    background: url(controller-assets/sticks.png);
     height: 94px;
     width: 94px;
 }
@@ -229,7 +229,7 @@ background-position: 0 -70px;
 }
 
 .custom .face {
-    background: url(controller-assets/dpad.svgz);
+    background: url(controller-assets/dpad.png);
     position: absolute;
 }
 
