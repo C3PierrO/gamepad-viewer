@@ -53,7 +53,7 @@ placement */
     height: 22px;
     background: url(controller-assets/pressed_buttons.png);
     background-repeat: no-repeat;
-    background-position: -120px 0px;
+    background-position: 0px -120px;
     opacity: 0;
 }
 .custom .bumpers{
