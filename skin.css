@@ -27,7 +27,7 @@
     left: 0px;
 }
 .custom .trigger{/* These are the actual triggers themselves */
-    width:120px;
+    width:102px;
     height:96px;b
     background: url(controller-assets/pressed_buttons.png);
     opacity: 0;
@@ -43,7 +43,7 @@ above to achieve the desired position. */
 .custom .trigger.right{
     float: right;
     background: url(controller-assets/pressed_buttons.png);
-    background-position: -83px 0px;
+    background-position: -102px 0px;
 }
 
 /* The bumpers follow the same methodology as the triggers in terms of
