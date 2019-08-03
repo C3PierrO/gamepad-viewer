@@ -21,13 +21,13 @@
     display: none;
 }
 .custom .triggers{ /* The triggers are housed inside a div, so this sizes the div properly and positions it */
-    width: 444ppx;
+    width: 202ppx;
     height: 96px;
     position: absolute;
     left: 0px;
 }
 .custom .trigger{/* These are the actual triggers themselves */
-    width:77px;
+    width:102px;
     height:96px;b
     background: url(controller-assets/pressed_buttons.png);
     opacity: 0;
